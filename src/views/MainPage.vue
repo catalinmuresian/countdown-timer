@@ -258,7 +258,7 @@ function flip(flipCard, newNumber) {
   }
   .social {
     position: absolute;
-    bottom: 48px;
+    bottom: 72px;
     left: 0;
     right: 0;
     display: flex;
@@ -331,10 +331,10 @@ function flip(flipCard, newNumber) {
           letter-spacing: 2.959px;
           margin-top: 14px;
         }
-        .social {
-          bottom: 90px;
-        }
       }
+    }
+    .social {
+      bottom: 48px;
     }
   }
 }
