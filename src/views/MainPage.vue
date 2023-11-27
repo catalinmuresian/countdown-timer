@@ -69,6 +69,7 @@ function flipAllCards(distance) {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+
   flip(data_days.value, days)
   flip(data_hours.value, hours)
   flip(data_minutes.value, minutes)
