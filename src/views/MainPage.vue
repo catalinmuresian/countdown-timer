@@ -332,7 +332,7 @@ function flip(flipCard, newNumber) {
           margin-top: 14px;
         }
         .social {
-          bottom: 72px;
+          bottom: 90px;
         }
       }
     }
