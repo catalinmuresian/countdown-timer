@@ -288,49 +288,53 @@ function flip(flipCard, newNumber) {
   }
   @media only screen and (max-width: 700px) {
     background-image: url("../assets/Mobile.png");
-    .social {
-      bottom: 72px;
-    }
     h1 {
       font-size: 18px;
       width: 327px;
       margin: 142px auto 54px;
     }
-    .segment-title {
-      font-size: 7px;
-      letter-spacing: 2.959px;
-      margin-top: 14px;
-    }
     .container {
       gap: 16px;
-    }
-    .flip-card {
-      font-size: 36px;
-      box-shadow: 0 5px 0 0 #191A23;
-    }
-    .top,
-    .bottom,
-    .flip-card .top-flip,
-    .flip-card .bottom-flip {
-      width: 70px;
-      height: 33px;
-      line-height: 1.33;
-    }
-    .top,
-    .bottom,
-    .bottom-flip
-    .flip-card
-    .top-flip {
-      width: 70px;
-      height: 33px;
-    }
-    .top,
-    .flip-card .top-flip {
-      --mask: radial-gradient(3px at 40px 100%,#0000 98%,#000) -40px;
-    }
-    .bottom,
-    .flip-card .bottom-flip {
-      --mask: radial-gradient(3px at 40px 0,#0000 98%,#000) -40px;
+      .container-segment {
+        .segment {
+          .flip-card {
+            font-size: 36px;
+            box-shadow: 0 5px 0 0 #191A23;
+          }
+          .top,
+          .bottom,
+          .flip-card .top-flip,
+          .flip-card .bottom-flip {
+            width: 70px;
+            height: 33px;
+            line-height: 1.33;
+          }
+          .top,
+          .bottom,
+          .bottom-flip
+          .flip-card
+          .top-flip {
+            width: 70px;
+            height: 33px;
+          }
+          .top,
+          .flip-card .top-flip {
+            --mask: radial-gradient(3px at 40px 100%,#0000 98%,#000) -40px;
+          }
+          .bottom,
+          .flip-card .bottom-flip {
+            --mask: radial-gradient(3px at 40px 0,#0000 98%,#000) -40px;
+          }
+        }
+        .segment-title {
+          font-size: 7px;
+          letter-spacing: 2.959px;
+          margin-top: 14px;
+        }
+        .social {
+          bottom: 72px;
+        }
+      }
     }
   }
 }
